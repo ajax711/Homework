@@ -13,9 +13,9 @@ try:
     if i>0:
         print(fizz_buzz(i))
     if i<0:
-        print("Invalid input")
+        raise Exception("No negative numbers")
 except:
     print("Invalid input")
 
 
-    
+   
